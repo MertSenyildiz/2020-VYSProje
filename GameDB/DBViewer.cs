@@ -13,7 +13,7 @@ namespace GameDB
 {
     public partial class DBViewer : Form
     {
-        NpgsqlConnection baglanti = new NpgsqlConnection("server=localHost; port=5432; Database=GameDB; user Id=postgres; password=Mert.123");
+        NpgsqlConnection baglanti = new NpgsqlConnection("");
         int kkodu = 0;
         string mail;
         public DBViewer(string mail)

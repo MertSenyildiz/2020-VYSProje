@@ -14,7 +14,7 @@ namespace GameDB
     
     public partial class Login : Form
     {
-        NpgsqlConnection baglanti = new NpgsqlConnection("server=localHost; port=5432; Database=GameDB; user Id=postgres; password=Mert.123");
+        NpgsqlConnection baglanti = new NpgsqlConnection("");
         public Login()
         {
             InitializeComponent();
